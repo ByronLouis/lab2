@@ -2,29 +2,37 @@
 <html>
 <body>
 
-    <style>
-      
-       .itzme {
-        border-style: outset;
-        border-width: 12px;
-        border-color: rgb(221, 243, 124);
-        border-radius: 50px;
+<style>
 
-       }
-
-       .midpic2 {
-        border-style: outset;
-        border-width: 12px;
-        border-color: rgb(221, 243, 124);
-        border-radius: 50px;
-       }
-
-       .itzme3 {
+    .itzme {
         border-style: outset;
         border-width: 15px;
         border-color: rgb(221, 243, 124);
-        border-radius: 50px;
-       }
+        border-radius: 45px;
+        margin-left: 0px;
+        margin-right: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .midpic2 {
+        border-style:ridge;
+        border-width: 12px;
+        border-color: rgb(252, 252, 252);
+        border-radius: 45px;
+        width: 1200px;
+        object-fit: cover;
+    }
+
+    .itzme3 {
+        border-style: outset;
+        border-width: 15px;
+        border-color: rgb(221, 243, 124);
+        border-radius: 45px;
+        margin-right: 0px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
 
     body {
         background-image: url(cinnamon.jpg);
@@ -32,26 +40,47 @@
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
+        text-align: center;
     }
-        .midpic2 {
-            width: 828px;
-            object-fit: cover;
-        }
 
-    </style>
-<h1 style="text-align: center; color:rgb(64, 205, 230); font-size:35px; font-family: sans-serif;">Welcome to my Website Introduction!</h1>
-    <div>
+    .container {
+        border-style: inset;
+        border-width: 10px;
+        border-color: rgb(180, 222, 228);
+        border-radius: 500px;
+        background-color: azure;
+        padding: 1px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    
+    }
+    
+</style>
+
+<h1 style="text-align: center; color:rgb(64, 205, 230); font-size:35px; font-family: monospace;">Welcome to my Website Introduction!</h1>
+
+<div>
     <a href="https://www.youtube.com/watch?v=6Q5xqNkCk7w">
-    <img src="bairon.jpg" class="itzme" height="500px" title="Personality 1">
-        </a>
+        <img src="bairon.jpg" class="itzme" height="500px" title="Personality 1">
+    </a>
     <a href="https://www.youtube.com/watch?v=9MCiixIkzUk">
-        <img src="midpic.jpg" class="midpic2" height="500px" title="Personality 2">
-        </a>
+        <img src="bairon2.jpg" class="itzme3" height="500px" title="Personality 2">
+    </a>
     <a href="https://www.youtube.com/watch?v=V9Wsm0hlLUI">
-        <img src="bairon2.jpg" class="itzme3" height="500px;" title="Personality 3">
-        </a>
+        <img src="midpic.jpg" class="midpic2" height="500px;" title="Personality 3">
+    </a>
+</div>
+
+<section>
+    <div class="container">
+        <h1 style="text-align: center; padding: 25px; color: rgb(64, 205, 230); font-family: monospace;">Simple Information About Me</h1>
     </div>
-    <p style="text-align: center; padding: 5px 100px 5px 100px;">My Name is Byron Louis A. Rabajante and I am so lazy and broke right now so hand me all of your money pls</p>
-        
+</section>
+<p style="padding: 15px; text-align: justify; text-align:left; font-size: 22px; font-style: italic; background-color: beige; margin-left: 700px; margin-right: 700px;"> Name: Byron Louis A. Rabajante <br>Age: 19 <br>Birthday: August 22 2003</p>  
+ 
+<p id="TESTING">My Favorite Song Genre</p>
+
+<button type="button" onclick='document.getElementById("TESTING").innerHTML = "dUh any genre"'>Click me to Reveal!</button>
 </body>
 </html>
