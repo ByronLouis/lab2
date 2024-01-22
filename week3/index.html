@@ -154,7 +154,7 @@
 
         <script>
           const person = {
-            name: "Byron",
+            firtstName: "Byron",
             age: 20,
             city: "Taguig"
 
@@ -162,6 +162,17 @@
 
           document.getElementById("info").innerHTML = person.name + ", " + person.age + ", " + person.city;
         </script>
+
+        <script>
+          const myObject = {
+            firstName:"Byron",
+            lastName: "Rabajante",
+            fullName: function() {
+            return this.firstName + " " + this.lastName;
+            }
+          }
+          document.getElementById("demo").innerHTML = myObject.fullName(); 
+          </script>
 
         </div>
     </div>
