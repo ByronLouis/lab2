@@ -120,7 +120,7 @@
     <header class="first-header">
       <a href="#homie" class="header-text" onclick="scrollToTop()">Home</a>
       <a href="#aboutMe" id="about-link" class="header-text" onclick="scrollToAbout()">About Me</a>
-      <a href="#contactie" class="header-text">Hobbies</a>
+      <a href="#hobbies" class="header-text">Hobbies</a>
     </header>
     </div>
 
@@ -149,6 +149,20 @@
             console.log(formattedDate);
 
         </script>
+
+      <p id="info"></p>
+
+        <script>
+          const person = {
+            name: "Byron",
+            age: 20,
+            city: "Taguig"
+
+        };
+
+          document.getElementById("info").innerHTML = person.name + ", " + person.age + ", " + person.city;
+        </script>
+
         </div>
     </div>
 
@@ -156,7 +170,7 @@
         <img src="motor.gif" class="motorgif" height="500px" title="BodyPartz" class="boximages">
       </a>
     
-   
+
     </header>
 
 <!--FOOTER-->
@@ -172,6 +186,11 @@
       <a href="https://github.com/ByronLouis" style="color: white; text-decoration: none;">
         <img src="github.png" alt="github" style="width: 24px; height: 20px; vertical-align: middle;">
       </a>
+
+      <a href="https://www.youtube.com/@aceu" style="color: white; text-decoration: none; margin-right: 10px;">
+        <img src="yt.png" alt="utube" style="width: 24px; height: 20px; vertical-align: middle;">
+      </a>
+
     </div>
   </footer>
 </body>
