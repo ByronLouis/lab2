@@ -156,15 +156,20 @@
         <img src="motor.gif" class="motorgif" height="500px" title="Click Me" class="boximages">
       </a>
 
-      <?php
-                $fname = "Paulo";
-                $lname = "Coelho";
-                function getQuote()
-                {
-                    return "When we love, we always strive to become better than we are. When we strive to become better than we are, everything around us becomes better too.<br>";
-                }
-                ?>
+      <script>
+       <?php
+      $x = 20;
 
+      function myAge()
+      {
+          echo 'var x = ' . $GLOBALS['x'] . ';';
+      }
+
+      myAge();
+      ?>
+
+      document.getElementById("age").innerHTML = "<strong>" + x + "</strong>";
+      </script>
     </header>
 
 <!--FOOTER-->
