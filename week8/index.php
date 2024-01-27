@@ -161,10 +161,23 @@
     </header>
 
 <!--FOOTER-->
-<div class="footer">
 <footer>
 
-      <?php
+<footer style="background-color: #292929; padding: 30px; text-align: center; font-family: 'Inter', sans-serif;">
+    <p style="margin: 0; color: #ffffff; font-family:'Creepster', sans-serif; color: rgb(218, 216, 135);">Devil Man Cry Baby &copy; 2024. </p>
+    <div style="margin-top: 10px;">
+     
+      <a href="https://open.spotify.com/user/12162102984" style="color: white; text-decoration: none; margin-right: 10px;">
+        <img src="spoti.png" alt="Spotify" style="width: 24px; height: 20px; vertical-align: middle;">
+      </a>
+      
+      <a href="https://github.com/ByronLouis" style="color: white; text-decoration: none;">
+        <img src="github.png" alt="github" style="width: 24px; height: 20px; vertical-align: middle;">
+      </a>
+    </div>
+
+    <div>
+    <?php
       // define variables and set to empty values
       $nameErr = $emailErr = $genderErr = $websiteErr = "";
       $name = $email = $gender = $comment = $website = "";
@@ -257,19 +270,6 @@
       echo $gender;
       ?>
       </div>
-
-<footer style="background-color: #292929; padding: 30px; text-align: center; font-family: 'Inter', sans-serif;">
-    <p style="margin: 0; color: #ffffff; font-family:'Creepster', sans-serif; color: rgb(218, 216, 135);">Devil Man Cry Baby &copy; 2024. </p>
-    <div style="margin-top: 10px;">
-     
-      <a href="https://open.spotify.com/user/12162102984" style="color: white; text-decoration: none; margin-right: 10px;">
-        <img src="spoti.png" alt="Spotify" style="width: 24px; height: 20px; vertical-align: middle;">
-      </a>
-      
-      <a href="https://github.com/ByronLouis" style="color: white; text-decoration: none;">
-        <img src="github.png" alt="github" style="width: 24px; height: 20px; vertical-align: middle;">
-      </a>
-    </div>
   </footer>
 </body>
 </html>
