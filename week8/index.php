@@ -141,6 +141,11 @@
             document.getElementById("age").innerHTML = "<strong>" + x + "</strong>";
         </script>
 
+        <?php
+        print "<h2>About me</h2>";
+        print "I'm Byron Louis!";
+        ?> 
+
         <script>
             const d = new Date("August 22 2003");
             const birthdateElement = document.getElementById("birthdate");
@@ -155,12 +160,7 @@
       <a href="https://www.youtube.com/watch?v=qisoHWRZg0E">
         <img src="motor.gif" class="motorgif" height="500px" title="Click Me" class="boximages">
       </a>
-      
-      <?php
-      $txt = "W3Schools.com";
-      echo "I love $txt!";
-      ?>
-   
+
     </header>
 
 <!--FOOTER-->
